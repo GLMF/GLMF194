@@ -1,0 +1,21 @@
+.button {margin:0;padding:5px;}
+GtkWindow {background-color:#F9E589;}/* orange */
+GtkGrid {background-color:#CCDBFF;}/* bleu */
+GtkLabel {padding:2px;font:Sans 12;font-weight:bold;}
+GtkButton, GtkButton GtkLabel {
+  border-radius:5px;
+  border-width:2px;
+  font:Sans 12;
+  background-color:#F98F89;/* rouge */
+  border-color:#CE3551;
+}
+GtkButton:hover, GtkButton:hover GtkLabel {
+  background-color:#89C1F9;/* bleu */
+  border-color:#3571AD;
+  transition:500ms ease-in-out;
+}
+GtkButton:hover:active, GtkButton:hover:active GtkLabel {
+  background-color:#82ED90;/* vert */
+  border-color:#2C934D;
+}
+GtkEntry#user {color:#E81BF7;}/* rose */
